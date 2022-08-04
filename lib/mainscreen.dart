@@ -14,6 +14,7 @@ class MainScreen extends StatefulWidget {
 }
 
 class _MainScreenState extends State<MainScreen> {
+
   late AndroidNotificationChannel channel;
   late FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin;
 
@@ -31,7 +32,7 @@ class _MainScreenState extends State<MainScreen> {
 
     getToken();
 
-    FirebaseMessaging.instance.subscribeToTopic("Animal");
+    //FirebaseMessaging.instance.subscribeToTopic("Animal");
   }
 
   void sendPushMessage() async {
@@ -66,6 +67,7 @@ class _MainScreenState extends State<MainScreen> {
   void getToken() async {
     await FirebaseMessaging.instance.getToken().then(
             (token) {
+              print(token);
               setState(() {
                 token = token;
               });
@@ -152,6 +154,7 @@ class _MainScreenState extends State<MainScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: Center(
         child: GestureDetector(
           onTap: () {

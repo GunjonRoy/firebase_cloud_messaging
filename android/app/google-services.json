@@ -1,33 +1,41 @@
 {
   "project_info": {
-    "project_number": "1061190407476",
-    "project_id": "fcmtestflutter-c30c2",
-    "storage_bucket": "fcmtestflutter-c30c2.appspot.com"
+    "project_number": "246415426765",
+    "project_id": "dtab-b4eab",
+    "storage_bucket": "dtab-b4eab.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1061190407476:android:84bca116bfcdafe0d80161",
+        "mobilesdk_app_id": "1:246415426765:android:a06e8680e0a7f4048c9584",
         "android_client_info": {
-          "package_name": "com.bytx.fcmflutter.fcmflutter"
+          "package_name": "dtab.com.sms"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1061190407476-tg5qemnhddhf0aa3lspc1qpljof55jm6.apps.googleusercontent.com",
+          "client_id": "246415426765-s7iq7c0b8vuv8cdo7uqiv4a66af3so92.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dtab.com.sms",
+            "certificate_hash": "4e87526858ff06de02114db7bca157013a9b0044"
+          }
+        },
+        {
+          "client_id": "246415426765-rh82edk9j8cred723qt9chrt6olok95n.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDL-c326UyUWPR7SmM6-kPuK7XKQXeCzgo"
+          "current_key": "AIzaSyAP2MvM4aNrrxRR42O4GW2u05MA3l9FW5c"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1061190407476-tg5qemnhddhf0aa3lspc1qpljof55jm6.apps.googleusercontent.com",
+              "client_id": "246415426765-rh82edk9j8cred723qt9chrt6olok95n.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
